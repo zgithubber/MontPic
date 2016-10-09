@@ -30,8 +30,8 @@ public class FlickrServiceImpl implements DowonloadImagesService {
 	@Override
 	public List<Image> getImages(Mountain mountain) {
 		
-		String apiKey = "bf374c162781d7623d824e7f4088c194";
-		String sharedSecret = "a52121d4c598895d";
+		String apiKey = "bcf5b1f6103a8f69931ada9b174a046f";
+		String sharedSecret = "c9b0f9154322a853";
 		
 		Flickr f = new Flickr(apiKey, sharedSecret, new REST());
 		
